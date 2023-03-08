@@ -6,5 +6,5 @@ def hello_world():
    return 'Hello World'
 
 if __name__ == '__main__':
-   app.run("park.sandbox.ensea.fr", 443, False)
+   app.run("0.0.0.0", 443, False)
 
