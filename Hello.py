@@ -8,7 +8,7 @@ def index():
 @app.route('/code', methods=['GET'])
 def get_code():
     # récupérer le code ici et le stocker dans une variable 'code'
-    code = 33
+    code = "33"
     return code
 
 if __name__ == '__main__':
